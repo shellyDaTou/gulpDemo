@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="loginApp">
+<head>
+    <meta charset="UTF-8">
+    <title>平台首页</title>
+</head>
+<body ng-controller="loginAction">
+
+<div style="line-height: 50px;">
+    <p>
+    <h1>{{demo}}</h1>
+    </p>
+    <p>
+    <h3>result: {{userInfoList}}</h3>
+    </p>
+    <a href="#" ng-click="delete()">删除单个</a><br/>
+    <a href="#" ng-click="find()">查询单个</a><br/>
+    <a href="#" ng-click="loginOut()">退出</a><br/>
+    <a href="#" ng-click="hello()">刷新</a><br/>
+    <a href="register.html">注册</a><br/>
+    <form>
+        <div>
+            <input type="text" ng-model="account" class="form-control" placeholder="请输入账号"/>
+        </div>
+        <div>
+            <input type="password" ng-model="pwd" class="form-control" placeholder="密码"/>
+        </div>
+        <button class="btn" type="button" ng-click="toRegister()">注册</button>
+    </form>
+</div>
+
+<script src="assets/lib/jquery/jquery.min.js"></script>
+<script src="assets/lib/angular/angular.min.js"></script>
+<script src="assets/scripts/util.js"></script>
+<script src="assets/scripts/config.js"></script>
+<script>
+
+    app.controller('loginAction', function ($scope, $http, $window, $location) {
+        $scope.demo = function () {
+            $http({
+                method: "GET",
+                url: baseApi + "/sys/demo/"
+            }).then(function successCallback(data) {
+                $scope.demo = data.data.data;
+            }, function (data) {
+                console.log("Error: " + data);
+            });
+        };
+        $scope.demo();
+
+
+        $scope.loginOut = function () {
+            $http({
+                method: "GET",
+                url: baseApi + "/sys/auth/logout"
+            }).then(function successCallback(response) {
+                sessionStorage.removeItem(MY_SESSION_KEY);
+                $window.location.href = basePath + "/login.html";
+            }, function (data) {
+                $scope.userInfo = data;
+            });
+        };
+
+        $scope.hello = function () {
+            $http({
+                method: "GET",
+                url: baseApi + "/sys/hello/"
+            }).then(function successCallback(data) {
+//                $scope.userInfoList = data.data;
+                console.log($scope.userInfo);
+            }, function (data) {
+                console.log("Error: " + data);
+            });
+        };
+        $scope.hello();
+
+        var id = "001";
+        $scope.delete = function () {
+            $http({
+                method: "delete",
+                url: baseApi + "/sys/hello/" + id
+            }).then(function successCallback(data) {
+                $scope.userInfoList = data.data;
+            }, function (data) {
+                console.log("Error: " + data);
+            });
+        };
+
+        $scope.find = function () {
+            $http({
+                method: "get",
+                url: baseApi + "/sys/hello/" + id
+            }).then(function successCallback(data) {
+                $scope.userInfoList = data.data;
+            }, function (data) {
+                console.log("Error: " + data);
+            });
+        };
+
+        $scope.toRegister = function () {
+            var user = {
+                account: $scope.account,
+                password: $scope.pwd
+            };
+            $http({
+                method: "POST",
+                url: baseApi + "/sys/account/save/",
+                data: user
+            }).then(function successCallback(data) {
+//                if (data) {
+//                    $scope.userInfo = data.data;
+////                    if ($scope.userInfo.meta.success) {
+////                        var token = $scope.userInfo.data.token;
+////                        sessionStorage.setItem(MY_SESSION_KEY, token);
+//                        $window.location.href = basePath + "/main.html";
+////                    }
+//                }
+            }, function (data) {
+                $scope.userInfo = data;
+            });
+        }
+    });
+</script>

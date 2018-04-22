@@ -1,0 +1,2281 @@
+<div class="kinder-container">
+    <div class="kinder-content">
+        <div class="kinder-main" main-content>
+            <div uib-tabset active="activeJustified" template-url="app/components/uib-templates/tabs/tabset.html">
+                <div uib-tab template-url="app/components/uib-templates/tabs/tab.html">
+                    <div uib-tab-heading>我上传的资源&nbsp;<span class="badge badge-theme">10</span></div>
+                    <div uib-tab-content>
+                        <div class="clearfix">
+                            <div class="float-left">
+                                <div class="d-inline-block">
+                                    <div class="resource-sorting margin-right-20">
+                                        <a href="javascript:;" class="sorting-list" title=""><i class="icon more-check left"></i>多选</a>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block">
+                                    <div class="resource-sorting">
+                                        <span>排序&nbsp;:&nbsp;</span>
+                                        <a href="javascript:;" class="sorting-list active" title="">时间<i class="icon desc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">浏览<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">收藏<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">点赞<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">评论<i class="icon asc"></i></a>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block margin-left-20">
+                                    <div class="resource-sorting">
+                                        <span>类型&nbsp;:&nbsp;</span>
+                                        <a href="javascript:;" class="sorting-list divider" title="">视频</a>
+                                        <a href="javascript:;" class="sorting-list" title="">其他</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="float-right">
+                                <button type="button" class="btn btn-gradient"><i class="icon upload left"></i>上传资源</button>
+                            </div>
+                        </div>
+                        <!--数据部分开始-->
+                        <div class="resource-group-wrap">
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle" ng-click="showSlideWrap()"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学11语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon detail"></i></span>
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <div class="resource-action horizontal no-title">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--数据部分结束-->
+
+                        <!--没有内容展示效果 开始-->
+                        <!--<div class="no-data-wrap resource">-->
+                        <!--<div class="no-data-bg d-inline-block"></div>-->
+                        <!--<p class="text-grey">没有任何数据</p>-->
+                        <!--<button type="button" class="btn btn-gradient"><i class="icon upload left"></i>上传资源</button>-->
+                        <!--</div>-->
+                        <!--没有内容展示效果 结束-->
+
+                        <!--分页开始-->
+                        <nav class="margin-top-20">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item"><a class="page-link page-link-text" href="#">首页</a></li>
+                                <li class="page-item disabled"><a class="page-link page-link-text" href="#" tabindex="-1">上一页</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                                <li class="page-item"><a class="page-link page-link-text" href="#">下一页</a></li>
+                                <li class="page-item"><a class="page-link page-link-text" href="#">尾页</a></li>
+                            </ul>
+                        </nav>
+                        <!--分页结束-->
+                    </div>
+                </div>
+                <div uib-tab template-url="app/components/uib-templates/tabs/tab.html">
+                    <div uib-tab-heading>我收藏的资源&nbsp;<span class="badge badge-theme">10</span></div>
+                    <div uib-tab-content>
+                        <div class="clearfix">
+                            <div class="float-left">
+                                <div class="d-inline-block">
+                                    <div class="resource-sorting margin-right-20">
+                                        <a href="javascript:;" class="sorting-list" title=""><i class="icon more-check left"></i>多选</a>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block">
+                                    <div class="resource-sorting">
+                                        <span>排序&nbsp;:&nbsp;</span>
+                                        <a href="javascript:;" class="sorting-list active" title="">时间<i class="icon desc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">浏览<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">收藏<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">点赞<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">评论<i class="icon asc"></i></a>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block margin-left-20">
+                                    <div class="resource-sorting">
+                                        <span>类型&nbsp;:&nbsp;</span>
+                                        <a href="javascript:;" class="sorting-list divider" title="">视频</a>
+                                        <a href="javascript:;" class="sorting-list" title="">其他</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="float-right">
+                                <button type="button" class="btn btn-gradient"><i class="icon upload left"></i>上传资源</button>
+                            </div>
+                            <div class="float-right margin-right-10">
+                                <span>学科</span>
+                                <div class="d-inline-block">
+                                    <select class="form-control form-control-sm margin-right-10" name="" id="">
+                                        <option value="">全部</option>
+                                        <option value="">语文</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!--数据部分开始-->
+                        <div class="resource-group-wrap">
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                            <p class="card-text text-grey no-space">已学习254分钟，总时长125分钟</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                            <p class="card-text text-grey no-space">已学习254分钟，总时长125分钟</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical">
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--数据部分结束-->
+
+                        <!--没有内容展示效果 开始-->
+                        <!--<div class="no-data-wrap resource">-->
+                        <!--<div class="no-data-bg d-inline-block"></div>-->
+                        <!--<p class="text-grey">没有任何数据</p>-->
+                        <!--<button type="button" class="btn btn-gradient"><i class="icon upload left"></i>上传资源</button>-->
+                        <!--</div>-->
+                        <!--没有内容展示效果 结束-->
+
+                        <!--分页开始-->
+                        <nav class="margin-top-20">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item"><a class="page-link page-link-text" href="#">首页</a></li>
+                                <li class="page-item disabled"><a class="page-link page-link-text" href="#" tabindex="-1">上一页</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                                <li class="page-item"><a class="page-link page-link-text" href="#">下一页</a></li>
+                                <li class="page-item"><a class="page-link page-link-text" href="#">尾页</a></li>
+                            </ul>
+                        </nav>
+                        <!--分页结束-->
+                    </div>
+                </div>
+                <div uib-tab template-url="app/components/uib-templates/tabs/tab.html">
+                    <div uib-tab-heading>我浏览的资源&nbsp;</div>
+                    <div uib-tab-content>
+                        <!--<div class="clearfix">
+                                <div class="float-left">
+                                    <div class="d-inline-block">
+                                        <div class="resource-sorting margin-right-20">
+                                            <a href="javascript:;" class="sorting-list" title=""><i class="icon more-check left"></i>多选</a>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline-block">
+                                        <div class="resource-sorting">
+                                            <span>排序&nbsp;:&nbsp;</span>
+                                            <a href="javascript:;" class="sorting-list active" title="">时间<i class="icon desc"></i></a>
+                                            <a href="javascript:;" class="sorting-list" title="">浏览<i class="icon asc"></i></a>
+                                            <a href="javascript:;" class="sorting-list" title="">收藏<i class="icon asc"></i></a>
+                                            <a href="javascript:;" class="sorting-list" title="">点赞<i class="icon asc"></i></a>
+                                            <a href="javascript:;" class="sorting-list" title="">评论<i class="icon asc"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="d-inline-block margin-left-20">
+                                        <div class="resource-sorting">
+                                            <span>类型&nbsp;:&nbsp;</span>
+                                            <a href="javascript:;" class="sorting-list divider" title="">视频</a>
+                                            <a href="javascript:;" class="sorting-list" title="">其他</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="float-left margin-left-20">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="learned-label" value="option1">
+                                        <label class="form-check-label" for="learned-label">只显示学过的</label>
+                                    </div>
+                                </div>
+                                <div class="float-right">
+                                    <button type="button" class="btn btn-gradient"><i class="icon upload left"></i>上传资源</button>
+                                </div>
+                                <div class="float-right margin-right-10">
+                                    <span>学科</span>
+                                    <div class="d-inline-block">
+                                        <select class="form-control form-control-sm margin-right-10" name="" id="">
+                                            <option value="">全部</option>
+                                            <option value="">语文</option>
+                                            <option value="">...</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>-->
+                        <!--编辑开始-->
+                        <div class="d-inline-block margin-right-10">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    全选(1/10)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="btn-group mr-2">
+                            <button type="button" class="btn btn-outline-theme">收藏</button>
+                        </div>
+                        <div class="btn-group mr-2">
+                            <button type="button" class="btn btn-outline-warning">删除</button>
+                        </div>
+                        <div class="btn-group mr-2">
+                            <button type="button" class="btn btn-outline-theme">完成</button>
+                        </div>
+                        <!--编辑结束-->
+                        <!--数据部分开始-->
+                        <div class="resource-group-wrap">
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit group-edit-active">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                            <p class="card-text text-grey no-space">已学习254分钟，总时长125分钟</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                            <p class="card-text text-grey no-space">已学习254分钟，总时长125分钟</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resource-list-group">
+                                <div class="resource-list vertical group-edit">
+                                    <i class="icon edit-group-icon"></i>
+                                    <div class="card">
+                                        <div class="card-img-wrap">
+                                            <img class="" src="content/images/resource/resource_list_bg.png">
+                                            <div class="edit-resource">
+                                                <span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text text-grey">小学语文(一年级上册)</p>
+                                            <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                                            <h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>
+                                            <p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>
+                                            <div class="resource-action horizontal no-title no-space">
+                                                <a class="action-list" href="javascript:;" title="浏览数">
+                                                    <i class="icon scan"></i>
+                                                    <span class="title">浏览数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="收藏数">
+                                                    <i class="icon collect"></i>
+                                                    <span class="title">收藏数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="点赞数">
+                                                    <i class="icon like"></i>
+                                                    <span class="title">点赞数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                                <a class="action-list" href="javascript:;" title="评论数">
+                                                    <i class="icon comment"></i>
+                                                    <span class="title">评论数</span>
+                                                    <span class="total">25</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--数据部分结束-->
+
+                        <!--分页开始-->
+                        <nav class="margin-top-20">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item"><a class="page-link page-link-text" href="#">首页</a></li>
+                                <li class="page-item disabled"><a class="page-link page-link-text" href="#" tabindex="-1">上一页</a></li>
+                                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">9</a></li>
+                                <li class="page-item"><a class="page-link page-link-text" href="#">下一页</a></li>
+                                <li class="page-item"><a class="page-link page-link-text" href="#">尾页</a></li>
+                            </ul>
+                        </nav>
+                        <!--分页结束-->
+
+                        <!--没有内容展示效果 开始-->
+                        <!--<div class="no-data-wrap resource">-->
+                        <!--<div class="no-data-bg d-inline-block"></div>-->
+                        <!--<p class="text-grey">没有任何数据</p>-->
+                        <!--<button type="button" class="btn btn-gradient"><i class="icon upload left"></i>上传资源</button>-->
+                        <!--</div>-->
+                        <!--没有内容展示效果 结束-->
+                    </div>
+                </div>
+                <div uib-tab template-url="app/components/uib-templates/tabs/tab.html">
+                    <div uib-tab-heading>我关注人的资源&nbsp;</div>
+                    <div uib-tab-content>
+                        <div class="clearfix">
+                            <div class="float-left">
+                                <div class="d-inline-block">
+                                    <div class="resource-sorting margin-right-20">
+                                        <a href="javascript:;" class="sorting-list" title=""><i class="icon more-check left"></i>多选</a>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block">
+                                    <div class="resource-sorting">
+                                        <span>排序&nbsp;:&nbsp;</span>
+                                        <a href="javascript:;" class="sorting-list active" title="">时间<i class="icon desc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">浏览<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">收藏<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">点赞<i class="icon asc"></i></a>
+                                        <a href="javascript:;" class="sorting-list" title="">评论<i class="icon asc"></i></a>
+                                    </div>
+                                </div>
+                                <div class="d-inline-block margin-left-20">
+                                    <div class="resource-sorting">
+                                        <span>类型&nbsp;:&nbsp;</span>
+                                        <a href="javascript:;" class="sorting-list divider" title="">视频</a>
+                                        <a href="javascript:;" class="sorting-list" title="">其他</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="float-right">
+                                <button type="button" class="btn btn-gradient"><i class="icon upload left"></i>上传资源</button>
+                            </div>
+                            <div class="float-right margin-right-10">
+                                <span>学科</span>
+                                <div class="d-inline-block">
+                                    <select class="form-control form-control-sm margin-right-10" name="" id="">
+                                        <option value="">全部</option>
+                                        <option value="">语文</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="float-right margin-right-10">
+                                <span>我的关注人</span>
+                                <div class="d-inline-block">
+                                    <select class="form-control form-control-sm margin-right-10" name="" id="">
+                                        <option value="">全部</option>
+                                        <option value="">张三</option>
+                                        <option value="">...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--数据部分开始-->
+                        <!--<div class="resource-group-wrap">-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--<p class="card-text text-grey no-space">已学习254分钟，总时长125分钟</p>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collected"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--<p class="card-text text-grey no-space">已学习254分钟，总时长125分钟</p>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="resource-list-group">-->
+                        <!--<div class="resource-list vertical">-->
+                        <!--<div class="card">-->
+                        <!--<div class="card-img-wrap">-->
+                        <!--<img class="" src="content/images/resource/resource_list_bg.png">-->
+                        <!--<div class="edit-resource">-->
+                        <!--<span class="d-inline-block rounded-circle"><i class="icon edit-collect"></i></span>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="card-body">-->
+                        <!--<p class="card-text text-grey">小学语文(一年级上册)</p>-->
+                        <!--<h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>-->
+                        <!--<h6 class="card-subtitle">第一章&nbsp;再别康桥</h6>-->
+                        <!--<p class="card-text text-grey no-space">作者&nbsp;:&nbsp;张三</p>-->
+                        <!--<div class="resource-action horizontal no-title no-space">-->
+                        <!--<a class="action-list" href="javascript:;" title="浏览数">-->
+                        <!--<i class="icon scan"></i>-->
+                        <!--<span class="title">浏览数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="收藏数">-->
+                        <!--<i class="icon collect"></i>-->
+                        <!--<span class="title">收藏数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="点赞数">-->
+                        <!--<i class="icon like"></i>-->
+                        <!--<span class="title">点赞数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--<a class="action-list" href="javascript:;" title="评论数">-->
+                        <!--<i class="icon comment"></i>-->
+                        <!--<span class="title">评论数</span>-->
+                        <!--<span class="total">25</span>-->
+                        <!--</a>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--</div>-->
+                        <!--数据部分结束-->
+
+                        <!--分页开始-->
+                        <!--<nav class="margin-top-20">-->
+                        <!--<ul class="pagination justify-content-center">-->
+                        <!--<li class="page-item"><a class="page-link page-link-text" href="#">首页</a></li>-->
+                        <!--<li class="page-item disabled"><a class="page-link page-link-text" href="#" tabindex="-1">上一页</a></li>-->
+                        <!--<li class="page-item active"><a class="page-link" href="#">1</a></li>-->
+                        <!--<li class="page-item"><a class="page-link" href="#">2</a></li>-->
+                        <!--<li class="page-item"><a class="page-link" href="#">3</a></li>-->
+                        <!--<li class="page-item"><a class="page-link" href="#">...</a></li>-->
+                        <!--<li class="page-item"><a class="page-link" href="#">9</a></li>-->
+                        <!--<li class="page-item"><a class="page-link page-link-text" href="#">下一页</a></li>-->
+                        <!--<li class="page-item"><a class="page-link page-link-text" href="#">尾页</a></li>-->
+                        <!--</ul>-->
+                        <!--</nav>-->
+                        <!--分页结束-->
+
+                        <!--没有内容展示效果 开始-->
+                        <div class="no-data-wrap resource">
+                            <div class="no-data-bg d-inline-block"></div>
+                            <p class="text-grey">没有任何数据</p>
+                        </div>
+                        <!--没有内容展示效果 结束-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="resource-slide-wrap">
+    <div class="resource-slide-box slide-box-show">
+        <div class="slide-box-title clearfix">
+            <div class="float-left title">
+                <!--<i class="icon resource-detail left"></i>资源详情-->
+                <i class="icon resource-edit left"></i>编辑资源
+            </div>
+            <div class="float-left">
+                <button type="button" class="btn btn-gradient">编辑</button>
+                <button type="button" class="btn btn-outline-warning">删除</button>
+            </div>
+            <div class="float-right title-icon-group">
+                <i class="icon left" ng-click="showFullScreen()">全屏</i>
+                <i class="icon close right" ng-click="closeSlideWrap()"></i>
+            </div>
+        </div>
+        <div class="slide-box-body">
+            <!--资源详情开始-->
+            <div class="resource-list vertical resource-list-detail">
+                <div class="card">
+                    <h5 class="card-title"><i class="icon video"></i>语文第三节课课堂视频</h5>
+                    <div class="card-img-wrap has-code-wrap">
+                        <img class="" src="content/images/resource/resource_list_bg.png">
+                        <div class="show-code-wrap">
+                            <div class="code-area">
+                                <img src="content/images/resource/resource_code_bg.png" alt=""/>
+                            </div>
+                            <p>用手机扫码看资源！</p>
+                            <p>用微信扫码还可分享至好友和朋友圈</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="resource-action vertical has-share-area">
+                            <a class="action-list" href="javascript:;" title="浏览数">
+                                <i class="icon scan"></i>
+                                <span class="title">浏览</span>
+                                <span class="total">25</span>
+                            </a>
+                            <a class="action-list" href="javascript:;" title="收藏数">
+                                <i class="icon collect"></i>
+                                <span class="title">收藏</span>
+                                <span class="total">25</span>
+                            </a>
+                            <a class="action-list" href="javascript:;" title="点赞数">
+                                <i class="icon like"></i>
+                                <span class="title">点赞</span>
+                                <span class="total">25</span>
+                            </a>
+                            <a class="action-list" href="javascript:;" title="评论数">
+                                <i class="icon comment"></i>
+                                <span class="title">评论</span>
+                                <span class="total">25</span>
+                            </a>
+                            <div class="share-out">
+                                <div class="resource-share">
+                                    <span class="title">分享到&nbsp;:&nbsp;</span>
+                                    <div class="share-list-group">
+                                        <a href="javascript:;" class="share-list qq" title="分享到QQ"></a>
+                                        <a href="javascript:;" class="share-list wx" title="分享到微信"></a>
+                                        <a href="javascript:;" class="share-list wb" title="分享到新浪微博"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-custom">
+                    <ul class="nav nav-tabs">
+                        <li>
+                            <a href="#tab_11" data-toggle="tab" class="active">详情</a>
+                        </li>
+                        <li class="">
+                            <a href="#tab_22" data-toggle="tab">评论</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab_11">
+                            <div class="col-md-12" elem-max-height>
+                                <form>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">学科和年级</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                语文（一年级）
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">教材版本</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                人教版
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">教材章节</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                第一章第一节第一章第一节第一章第一节第一章第一节第一章第一节第一章第一节
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">资源描述</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                资源是用于XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                                XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">关键字</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                关键字
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">作者</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                张三
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">上传人</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                张三
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">上传时间</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                2018-03-28&nbsp;14:35:17
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">最后修改时间</label>
+                                        <div class="col-md-6">
+                                            <div class="form-control-static">
+                                                2018-03-28&nbsp;14:35:24
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab_22">
+                            <div class="" elem-max-height>
+                                <!--评论区开始-->
+                                <div class="comments-group">
+
+                                    <!--没有内容展示效果 开始-->
+                                    <!--<div class="no-data-wrap comment">-->
+                                    <!--<div class="no-data-bg d-inline-block"></div>-->
+                                    <!--<p class="text-grey">还没有评论，快来抢沙发！</p>-->
+                                    <!--</div>-->
+                                    <!--没有内容展示效果 结束-->
+
+                                    <!--内容展示区域 开始-->
+                                    <div class="comments-list left-fixed active">
+                                        <img src="content/images/user_infor.png" class="rounded-circle" alt=""/>
+                                        <div class="comments-detail">
+                                            <div class="clearfix">
+                                                <div class="float-left name">张老师</div>
+                                                <div class="float-right date">2018-03-28&nbsp;14:52</div>
+                                            </div>
+                                            <p>这个资源很不错啊</p>
+                                        </div>
+                                    </div>
+                                    <div class="comments-list left-fixed">
+                                        <img src="content/images/user_infor.png" class="rounded-circle" alt=""/>
+                                        <div class="comments-detail">
+                                            <div class="clearfix">
+                                                <div class="float-left name">张老师</div>
+                                                <div class="float-right date">2018-03-28&nbsp;14:52</div>
+                                            </div>
+                                            <p>这个资源很不错啊</p>
+                                        </div>
+                                    </div>
+                                    <div class="comments-list left-fixed">
+                                        <img src="content/images/user_infor.png" class="rounded-circle" alt=""/>
+                                        <div class="comments-detail">
+                                            <div class="clearfix">
+                                                <div class="float-left name">张老师</div>
+                                                <div class="float-right date">2018-03-28&nbsp;14:52</div>
+                                            </div>
+                                            <p>这个资源很不错啊</p>
+                                        </div>
+                                    </div>
+                                    <div class="comments-list left-fixed">
+                                        <img src="content/images/user_infor.png" class="rounded-circle" alt=""/>
+                                        <div class="comments-detail">
+                                            <div class="clearfix">
+                                                <div class="float-left name">张老师</div>
+                                                <div class="float-right date">2018-03-28&nbsp;14:52</div>
+                                            </div>
+                                            <p>这个资源很不错啊</p>
+                                        </div>
+                                    </div>
+                                    <div class="comments-list left-fixed">
+                                        <img src="content/images/user_infor.png" class="rounded-circle" alt=""/>
+                                        <div class="comments-detail">
+                                            <div class="clearfix">
+                                                <div class="float-left name">张老师</div>
+                                                <div class="float-right date">2018-03-28&nbsp;14:52</div>
+                                            </div>
+                                            <p>这个资源很不错啊</p>
+                                        </div>
+                                    </div>
+                                    <div class="comments-list left-fixed">
+                                        <img src="content/images/user_infor.png" class="rounded-circle" alt=""/>
+                                        <div class="comments-detail">
+                                            <div class="clearfix">
+                                                <div class="float-left name">张老师</div>
+                                                <div class="float-right date">2018-03-28&nbsp;14:52</div>
+                                            </div>
+                                            <p>这个资源很不错啊</p>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-more btn-block margin-top-10">加载更多</button>
+                                    <!--内容展示区域 结束-->
+
+                                </div>
+                                <!--评论区结束-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--资源详情结束-->
+
+            <!--编辑资源开始-->
+            <!--<div class="col-md-12" elem-max-height>
+                <form>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">资源名称<span class="">:</span></label>
+                        <div class="col-md-6">
+                            <div class="form-control-static">
+                                <strong>语文第三节课课堂视频.mp4</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">资源封面<span class="">:</span></label>
+                        <div class="col-md-6">
+                            <div class="form-control-static">
+                                <div><img src="content/images/resource/resource_list_bg.png" class="rounded" width="205" alt=""/></div>
+                                <a class="text-success" href="">修改封面</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">标题<span class="required">*</span></label>
+                        <div class="col-md-6">
+                            <input class="form-control" type="text"/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">学科</label>
+                        <div class="col-md-6">
+                            <select class="form-control" name="" id="">
+                                <option value="">请选择资源所属学科</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">年级</label>
+                        <div class="col-md-6">
+                            <select class="form-control" name="" id="">
+                                <option value="">请选择资源所属年级</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">教材版本</label>
+                        <div class="col-md-8">
+                            <div class="form-row">
+                                <div class="col">
+                                    <select class="form-control" name="">
+                                        <option value="">选项1</option>
+                                        <option value="">选项2</option>
+                                        <option value="">选项3</option>
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <div class="dropdown-search">
+                                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">下拉菜单</button>
+                                        <div class="dropdown-menu">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">查询</span>
+                                                </div>
+                                            </div>
+                                            <div class="dropdown-tree">
+                                                这儿放一颗树
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">教材章节</label>
+                        <div class="col-md-6">
+                            <input class="form-control" type="text" placeholder="请用逗号对关键字进行分隔"/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">作者</label>
+                        <div class="col-md-6">
+                            <input class="form-control" type="text" placeholder="张三"/>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">资源描述</label>
+                        <div class="col-md-8">
+                            <textarea class="form-control" name="" id="" cols="" rows="5" placeholder="0/1000"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-3 col-form-label">关键字</label>
+                        <div class="col-md-6">
+                            <input class="form-control" type="text" placeholder="请用逗号对关键字进行分隔"/>
+                        </div>
+                    </div>
+                </form>
+            </div>-->
+            <!--编辑资源结束-->
+        </div>
+    </div>
+</div>

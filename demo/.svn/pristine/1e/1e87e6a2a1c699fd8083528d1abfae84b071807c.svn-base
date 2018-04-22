@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="loginApp">
+<script src="assets/lib/jquery/jquery.min.js"></script>
+<script src="assets/lib/angular/angular.min.js"></script>
+<script src="assets/scripts/co/index.js"></script>
+<script src="assets/scripts/aliyun-oss-sdk.min.js"></script>
+<script src="https://www.promisejs.org/polyfills/promise-6.1.0.js"></script>
+<script src="assets/scripts/util.js"></script>
+<script src="assets/scripts/config.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+    <body>
+    <div ng-controller="loginAction">
+        <form>
+            <div>
+                <input type="text" ng-model="username" class="form-control" placeholder="请输入账号"/>
+            </div>
+            <div>
+                <input type="password" ng-model="password" class="form-control" placeholder="密码"/>
+            </div>
+            <button class="btn" type="button" ng-click="toLogin()">登录</button>
+        </form>
+        <div>{{userInfo}}</div>
+        <a href="main.html">不登录，直接访问</a>
+        <div>
+            标题：<input  ng-model="title"/>
+        </div>
+        <div>
+            学科：<input  ng-model="subject"/>
+        </div>
+        <div>
+            年级：<input  ng-model="grade"/>
+        </div>
+        <div>
+            教材版本：<input  ng-model="version"/>
+        </div>
+        <div>
+            教材章节：<input  ng-model="chapter"/>
+        </div>
+        <div>
+            作者：<input  ng-model="author"/>
+        </div>
+        <div>
+            描述：<input  ng-model="description"/>
+        </div>
+        <div>
+            关键字：<input  ng-model="keyWords"/>
+        </div>
+        <input id="uploadName" type="file" >
+        <button ng-click="uploadFile()">上传</button>
+        <button ng-click="continueFile()">继续上传</button>
+        <a download="" href="" target="blank" id="download"></a>
+        <button ng-click="downloadFile()">下载</button>
+        <button ng-click="showUserList()">显示用户</button>
+        <button ng-click="showCache()">显示缓存</button>
+        <button ng-click="clearCache()">清除缓存</button>
+    </div>
+    </body>
+    <script>
+        app.controller('loginAction', function ($scope, $http, $window, $timeout) {
+            $scope.showUserList = function(){
+                let user = {name:""};
+                $http({
+                    method: "POST",
+                    url: baseApi + "/sys/user/findPages",
+                    data: user
+                }).then(function successCallback(data) {
+                    if (data) {
+                        if(data.data.code == 200){
+                            console.log(data);
+                        }
+                    }
+                }, function (data) {
+                    $scope.userInfo = data;
+                });
+            };
+
+
+            $scope.toLogin = function () {
+                var user = {
+                    username: $scope.username,
+                    password: $scope.password
+                };
+                $http({
+                    method: "POST",
+                    url: baseApi + "/sys/auth/login",
+                    data: user
+                }).then(function successCallback(data) {
+                    if (data) {
+                        if(data.data.code == 200){
+                            $window.location.href = basePath + "/main.html";
+                        }else{
+                            console.log(data.data.msg);
+                        }
+                    }
+                }, function (data) {
+                    $scope.userInfo = data;
+                });
+            };
+
+            //指定文件路径和文件名
+            const UPLOAD_PATH = "xbw_files/testOSS";
+            const DOWNLOAD_PATH = "xbw_files/1.pdf";
+            //用于指定唯一标识
+            let userIdAndIp;
+//            $http({
+//                method: "GET",
+//                url: baseApi + "/sys/user/getCurrentUser"
+//            }).then(function successCallback(data) {
+//                if(data.data.code == "200"){
+//                    if(data.data.result){
+//                        userIdAndIp = data.data.result;
+//                    }
+//                }else{
+//                    console.log(data.data.msg);
+//                }
+//            });
+
+//            $http({
+//                method: "GET",
+//                url: baseApi + "/sys/user/getCurrentUser"
+//            }).then(function successCallback(data) {
+//                if(data.data.code == "200"){
+//                    if(data.data.result){
+//                        userIdAndIp = data.data.result;
+//                    }
+//                }else{
+//                    console.log(data.data.msg);
+//                }
+//            });
+
+            $scope.showCache = function () {
+                for(let i in localStorage){
+                    console.log(i)
+                }
+            };
+
+            $scope.clearCache = function () {
+                localStorage.clear();
+            };
+
+            /**
+             * 此处创建一个client实例
+             */
+            let createClient = function () {
+                return new OSS({
+                    region: REGION,
+                    accessKeyId: ACCESSKEY_ID,
+                    accessKeySecret: ACCESSKEY_SECRET,
+                    bucket: BUCKET,
+                    //超时半个小时
+                    timeout: TIMEOUT
+                });
+            };
+
+            /**
+             * 此处开始创建新资源
+             */
+            let createResourceInfo = function (params) {
+                //创建主表
+                $http({
+                    method: "POST",
+                    url: baseApi + "/zygl/resourceinfo/",
+                    data: {
+                        name: $scope.title,
+                        title: $scope.title,
+                        subject: $scope.subject,
+                        grade: $scope.grade,
+                        version: $scope.version,
+                        chapter: $scope.chapter,
+                        author: $scope.author,
+                        description: $scope.description,
+                        keyWords: $scope.keyWords
+                    }
+                }).then(function successCallback(data) {
+                    if(data.data.code == "200"){
+                        params.resourceId = data.data.result;
+                        //创建子表
+                        $http({
+                            method: "POST",
+                            url: baseApi + "/zygl/upload/saveInfo/",
+                            data: params
+                        });
+                    }
+                });
+            };
+
+            /**
+             * 此处开始下载资源
+             * xiaobowen
+             * 2018年3月30日10:22:38
+             * downloadPath 下载文件地址
+             */
+            $scope.downloadFile = function () {
+                //获取实例
+                let client = createClient();
+                let oneUrl = client.signatureUrl(DOWNLOAD_PATH);
+                var a = document.getElementById("download");
+                a.href = oneUrl;
+                a.download = 'test';
+                a.click();
+            };
+
+            $scope.continueFile = function () {
+                let file = localStorage.getItem("file");
+                console.log(JSON.stringify(file))
+                $scope.uploadFile(file);
+            };
+
+            /**
+             * 此处开始资源简单上传，用于小于100kb的文件
+             * xiaobowen
+             * 2018年3月30日09:54:02
+             * file 资源
+             * location 资源存放位置
+             */
+            let simpleUpload = function (file) {
+
+                let client = createClient();
+                co(function* () {
+                    let params = {
+                        name:file.name,
+                        size:file.size,
+                        type:file.type,
+                        //小资源默认秒传
+                        isFinish:1
+                    };
+                    yield client.multipartUpload(UPLOAD_PATH, file, {
+                        progress: function* () {
+                            //新建资源
+                            createResourceInfo(params);
+                        },
+                        Expires:'120000'
+                    });
+                });
+            };
+
+            /**
+             * 此处开始资源分片上传，用于100kb~5g的文件
+             * xiaobowen
+             * 2018年3月30日09:11:05
+             * location 资源存放位置
+             * file 资源
+             * cptFlag 是否断点
+             */
+            var multipartUpload = function (file,cptFlag,checkPoint) {
+                var client = createClient();
+                let resourceId;
+                if(cptFlag){
+                    //资源断点信息存在
+                    //OSS上传回调的cpt缺少本地资源对象，可能是js里的小bug，此处手动将资源重新指向断点对象
+                    checkPoint = JSON.parse(checkPoint);
+                    checkPoint.file = file;
+                }
+                //开始上传
+                co(function* () {
+                    yield client.multipartUpload(UPLOAD_PATH, file, {
+                        checkpoint:checkPoint,
+                        progress: function* (percentage, cpt) {
+                            let cptStr = JSON.stringify(cpt);
+                            //上传百分比 转换字符串格式
+                            let perStr = JSON.stringify(percentage);
+                            if(!cptFlag){
+                                //新建资源参数
+                                let infoData= {
+                                    name:file.name,
+                                    size:file.size,
+                                    type:file.type,
+                                    uploadId:cpt.uploadId,
+                                    checkPointInfo:cptStr,
+                                    //默认未上传完毕
+                                    isFinish:0
+                                };
+                                //不是断点资源，新建资源
+                                resourceId = createResourceInfo(infoData);
+                                //只添加一次
+                                cptFlag = !cptFlag
+                            };
+                            console.log("percentage:"+JSON.stringify (percentage));
+                            //此处开始实时更新资源分片信息至数据库
+                            $http({
+                                method: "POST",
+                                url: baseApi + "/zygl/upload/updateInfo/",
+                                data:{
+                                    uploadId:cpt.uploadId,
+                                    checkPointInfo:cptStr
+                                }
+                            }).then(function () {
+                                //此处缓存用户id+ip信息+文件信息，加强唯一性
+                                localStorage.setItem(file.name+file.size+file.type,cpt.uploadId);
+                                //此处判断是否上传完毕
+                                if(perStr == "1"){
+                                    $http({
+                                        method: "PUT",
+                                        url: baseApi + "/zygl/upload/updateInfoStatus/"+cpt.uploadId
+                                    }).then(function () {
+                                        //此处上传完毕，删除缓存断点资源信息，释放空间
+                                        localStorage.removeItem(file.name+file.size+file.type);
+                                    });
+                                }
+                            });
+                        },
+                        partSize:5000000,
+                        Expires:'120000'
+                    });
+                });
+            };
+
+            /**
+             * 上传资源 业务处理
+             * xiaobowen
+             * 2018年3月30日09:12:21
+             * file 有值时 断点续传 无值时 手动上传
+             */
+            $scope.uploadFile = function (cptFile) {
+                let file = {};
+                if(cptFile){
+                    //断点续传
+                    file = cptFile;
+                }else{
+                    //前端上传
+                    file = $("#uploadName")[0].files[0];
+                }
+                localStorage.setItem("file",file);
+                //断点flag
+                let cptFlag = false;
+                co(function* () {
+                    console.log("beginTime:"+new Date());
+                    //此处开始判断是否需要分片上传
+                    if(file.size > 100 * 1024){
+                        //此处开始分片上传
+                        //断点对象
+                        let checkPoint = null;
+                        //此处验证带上传资源是否断点资源
+                        let cacheUploadId = localStorage.getItem(file.name+file.size+file.type);
+                        if(cacheUploadId){
+                            //存在未上传完毕的资源
+                            $http({
+                                method: "GET",
+                                url: baseApi + "/zygl/upload/getUploadInfo/"+cacheUploadId
+                            }).then(function successCallback(data) {
+                                if (data.data.code == "200") {
+                                    //响应成功
+                                    if(data.data.result){
+                                        //断点资源flag
+                                        cptFlag = !cptFlag;
+                                        //断点资源
+                                        checkPoint = data.data.result.checkPointInfo;
+                                    }
+                                }else{
+                                    console.log("错误！data:"+data)
+                                }
+                            }).then(function successCallback() {
+                                //开始续传
+                                multipartUpload(file,true,checkPoint);
+                            });
+                        }else{
+                            //新资源
+                            multipartUpload(file,false)
+                        }
+                    }else{
+                        //简单上传
+                        simpleUpload(file);
+                    }
+                })
+            }
+        });
+    </script>
+</html>

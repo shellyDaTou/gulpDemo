@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="kayApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>首页 - 依能K12</title>
+
+    <!-- build:css content/css/vendor.min.css -->
+    <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="../node_modules/swiper/dist/css/swiper.css"/>
+    <!-- endbuild -->
+
+    <!-- build:css content/css/all.min.css -->
+    <link rel="stylesheet" type="text/css" href="content/css/core.css"/>
+    <link rel="stylesheet" type="text/css" href="content/css/style.css"/>
+    <!-- endbuild -->
+</head>
+<body class="has-bg-short">
+
+<div ui-view></div>
+
+<!-- build:js content/scripts/vendor.min.js -->
+<script type="text/javascript" src="../node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="../node_modules/angular/angular.js"></script>
+<script type="text/javascript" src="../node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
+<script type="text/javascript" src="../node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+<script type="text/javascript" src="../node_modules/swiper/dist/js/swiper.js"></script>
+<script type="text/javascript" src="../node_modules/angular-swiper/dist/angular-swiper.js"></script>
+<!-- endbuild -->
+
+<!-- build:js content/scripts/all.min.js -->
+<script type="text/javascript" src="app/app.module.js"></script>
+<script type="text/javascript" src="app/blocks/handlers/state.handler.js"></script>
+<script type="text/javascript" src="app/blocks/config/http.config.js"></script>
+
+<!--state-->
+<script type="text/javascript" src="app/app.state.js"></script>
+<script type="text/javascript" src="app/main/new/new.state.js"></script>
+<script type="text/javascript" src="app/main/resource/resource.state.js"></script>
+<script type="text/javascript" src="app/main/follow/follow.state.js"></script>
+<!--state end-->
+
+<!--components-->
+<script type="text/javascript" src="app/components/kui-header/header.directive.js"></script>
+<script type="text/javascript" src="app/components/kui-footer/footer.directive.js"></script>
+<script type="text/javascript" src="app/components/kui-height/height.directive.js"></script>
+<!--components end-->
+
+<!-- endbuild -->
+</body>
+</html>

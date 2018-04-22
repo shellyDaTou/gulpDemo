@@ -1,0 +1,41 @@
+var app = angular.module('loginApp', []);
+var basePath = "";
+var baseApi = "http://127.0.0.1:9082/k12";
+var MY_SESSION_KEY = "my.k12.tk.x";
+var AUTH_HEADER = "Authorization";
+
+
+//ajax拦截器
+app.factory('ajaxInterceptor', ['$q', '$rootScope', '$window', '$injector', function ($q, $rootScope, $window, $injector) {
+    var interceptor = {
+        request: function (config) {
+            var token = sessionStorage.getItem(MY_SESSION_KEY);
+            config.headers = config.headers || {};
+            if (token) {
+                console.log("req: " + token);
+                config.headers.Authorization = token;
+            }
+            return config;
+        },
+        response: function (response) {
+            var token = response.headers(AUTH_HEADER);
+            if (token) {
+                console.log("res: " + token);
+                sessionStorage.setItem(MY_SESSION_KEY, token);
+            }
+            return response;
+        },
+        requestError: function (rejection) {
+            //请求发生了错误,如果能从错误中恢复，可以返回一个新的请求
+        },
+        responseError: function (response) {
+            //请求发生了错误,如果能从错误中恢复，可以返回一个新的响应
+        }
+    };
+    return interceptor;
+}]);
+
+app.config(function ($httpProvider) {
+    $httpProvider.interceptors.push('ajaxInterceptor');
+});
+

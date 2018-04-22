@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="loginApp">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body ng-controller="loginAction">
+
+<div style="line-height: 50px;">
+    <p>result: {{userInfoList}}</p>
+    xxxxxxxxxxxxxxxxxxxxx
+</div>
+
+<script src="assets/lib/jquery/jquery.min.js"></script>
+<script src="assets/lib/angular/angular.min.js"></script>
+<script src="assets/scripts/util.js"></script>
+<script src="assets/scripts/config.js"></script>
+<script>
+    app.controller('loginAction', function ($scope, $http, $window, $location) {
+        basePath = $location.absUrl().substr(0, $location.absUrl().indexOf("k12-front")) + "k12-front";
+        $scope.exitLogin = function () {
+            $http({
+                method: "POST",
+                url: baseApi + "/jcgl/logout"
+            }).then(function successCallback(response) {
+                $scope.userInfo = response.data;
+                console.log($scope.userInfo);
+                if ($scope.userInfo.meta.success) {
+                    $window.location.href = basePath + "/login.html";
+                }
+            }, function (data) {
+                $scope.userInfo = data;
+            });
+        };
+
+        $scope.hello = function () {
+            $http({
+                method: "GET",
+                url: baseApi + "/jcgl/hello/"
+            }).then(function successCallback(response) {
+                $scope.userInfoList = response.data;
+                console.log($scope.userInfo);
+            }, function (data) {
+                $scope.userInfoList = data;
+            });
+        };
+
+        $scope.hello();
+    });
+</script>

@@ -1,0 +1,424 @@
+var getCookie = function (cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1);
+        if (c.indexOf(name) != -1) return decodeURI(c.substring(name.length, c.length));
+    }
+    return "";
+};
+
+//删除cookies
+var delCookie = function (name) {
+    var exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    var cval = getCookie(name);
+    if (cval != null) {
+        document.cookie = name + "=; expires=" + exp.toGMTString();
+    }
+};
+
+function setCookie(name, value) {
+    delCookie(name);
+    var exp = new Date();
+    exp.setTime(exp.getTime() + 60 * 1000);
+    document.cookie = name + "=" + value + ";expires=" + exp.toGMTString();
+}
+
+var clearCookie = function (exclude) {
+    var d = new Date();
+    d.setTime(d.getTime() + (-1 * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    var arrCookie = document.cookie.split('; ');
+    Array.prototype.S = String.fromCharCode(2);
+    Array.prototype.in_array = function (e) {
+        var r = new RegExp(this.S + e + this.S);
+        return (r.test(this.S + this.join(this.S) + this.S));
+    };
+    for (var i = 0; i < arrCookie.length; i++) {
+        var arr = arrCookie[i].split("=");
+        if (typeof exclude == 'object') {
+            if (!exclude.in_array(arr[0]))
+                document.cookie = arr[0] + "=''; " + expires + ";path=/";
+        } else if (arr[0] != exclude) {
+            document.cookie = arr[0] + "=''; " + expires + ";path=/";
+        }
+    }
+};
+
+var isNotBlank = function (str) {
+    if (null == str) {
+        return false;
+    }
+    if (/\S+/.test(str)) {
+        return true;
+    }
+    return false;
+};
+
+String.prototype.replaceAll = function (s1, s2) {
+    return this.replace(new RegExp(s1, "gm"), s2);
+};
+
+/**
+ * base64编码
+ * @param {Object} str
+ */
+var base64encode = function (str) {
+    return new Base64().encode(str);
+};
+
+/**
+ * base64解码
+ * @param {Object} str
+ */
+var base64decode = function (str) {
+    return new Base64().decode(str);
+};
+
+/**
+ * base64 加解密 对象
+ * @date 2017年12月1日14:38:20
+ * @author luoq
+ * @desc 替换原来的加解密工具类
+ */
+function Base64() {
+
+    // private property
+    _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+
+    // public method for encoding
+    this.encode = function (input) {
+        var output = "";
+        var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+        var i = 0;
+        input = _utf8_encode(input);
+        while (i < input.length) {
+            chr1 = input.charCodeAt(i++);
+            chr2 = input.charCodeAt(i++);
+            chr3 = input.charCodeAt(i++);
+            enc1 = chr1 >> 2;
+            enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+            enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+            enc4 = chr3 & 63;
+            if (isNaN(chr2)) {
+                enc3 = enc4 = 64;
+            } else if (isNaN(chr3)) {
+                enc4 = 64;
+            }
+            output = output +
+                _keyStr.charAt(enc1) + _keyStr.charAt(enc2) +
+                _keyStr.charAt(enc3) + _keyStr.charAt(enc4);
+        }
+        return output;
+    }
+
+    // public method for decoding
+    this.decode = function (input) {
+        var output = "";
+        var chr1, chr2, chr3;
+        var enc1, enc2, enc3, enc4;
+        var i = 0;
+        input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+        while (i < input.length) {
+            enc1 = _keyStr.indexOf(input.charAt(i++));
+            enc2 = _keyStr.indexOf(input.charAt(i++));
+            enc3 = _keyStr.indexOf(input.charAt(i++));
+            enc4 = _keyStr.indexOf(input.charAt(i++));
+            chr1 = (enc1 << 2) | (enc2 >> 4);
+            chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+            chr3 = ((enc3 & 3) << 6) | enc4;
+            output = output + String.fromCharCode(chr1);
+            if (enc3 != 64) {
+                output = output + String.fromCharCode(chr2);
+            }
+            if (enc4 != 64) {
+                output = output + String.fromCharCode(chr3);
+            }
+        }
+        output = _utf8_decode(output);
+        return output;
+    }
+
+    // private method for UTF-8 encoding
+    _utf8_encode = function (string) {
+        string = string.replace(/\r\n/g, "\n");
+        var utftext = "";
+        for (var n = 0; n < string.length; n++) {
+            var c = string.charCodeAt(n);
+            if (c < 128) {
+                utftext += String.fromCharCode(c);
+            } else if ((c > 127) && (c < 2048)) {
+                utftext += String.fromCharCode((c >> 6) | 192);
+                utftext += String.fromCharCode((c & 63) | 128);
+            } else {
+                utftext += String.fromCharCode((c >> 12) | 224);
+                utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+                utftext += String.fromCharCode((c & 63) | 128);
+            }
+
+        }
+        return utftext;
+    }
+
+    // private method for UTF-8 decoding
+    _utf8_decode = function (utftext) {
+        var string = "";
+        var i = 0;
+        var c = c1 = c2 = 0;
+        while (i < utftext.length) {
+            c = utftext.charCodeAt(i);
+            if (c < 128) {
+                string += String.fromCharCode(c);
+                i++;
+            } else if ((c > 191) && (c < 224)) {
+                c2 = utftext.charCodeAt(i + 1);
+                string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+                i += 2;
+            } else {
+                c2 = utftext.charCodeAt(i + 1);
+                c3 = utftext.charCodeAt(i + 2);
+                string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+                i += 3;
+            }
+        }
+        return string;
+    }
+}
+
+
+//用于将对象转换为springMVC可识别的对象形式
+var parseParamForSpringMVC = function (obj) {
+    //最终组合成功的对象
+    var resultObj = {};
+    //递归方法，用于深度转换每一个参数
+    //key 对象时，是属性名
+    //value 属性值
+    //prefix（关键），和key进行组合相组合成想要的格式类型如name.age（对象）或name[0].age（数组）
+    var deepParseParams = function (key, value, prefix) {
+        //先判断是否是数组
+        if (value instanceof Array) {
+            for (var i in value) {
+                deepParseParams("", value[i], prefix + key + "[" + i + "]");
+            }
+        }
+        //再判断是否是对象
+        else if (value instanceof Object) {
+            for (var i in value) {
+                deepParseParams("." + i, value[i], prefix + key);
+            }
+        }
+        //如果不是数组或对象，到了此次递归的最后一次，将完成组合的这条最终数据放在最终组合对象中
+        else {
+            resultObj[prefix + key] = value;
+        }
+
+    };
+    //因为传入的转换参数必须是对象,而且第一次传入和第二次开始组合“.”号是很特殊的地方，所有
+    //第一次单独循环
+    for (var i in obj) {
+        deepParseParams("", obj[i], i);
+    }
+
+    //返回转换成功的对象集合
+    return resultObj;
+};
+
+/**
+ * 用于处理报表打印时传参中文乱码
+ * @param text
+ * @returns {string}
+ */
+function cjkEncode(text) {
+    if (text == null) {
+        return "";
+    }
+    var newText = "";
+    for (var i = 0; i < text.length; i++) {
+        var code = text.charCodeAt(i);
+        if (code >= 128 || code == 91 || code == 93) {  //91 is "[", 93 is "]".
+            newText += "[" + code.toString(16) + "]";
+        } else {
+            newText += text.charAt(i);
+        }
+    }
+    return newText;
+}
+
+
+/**
+ * 自定义Map
+ * @returns {Object}
+ * @constructor
+ */
+function Map() {
+    this.elements = new Array();
+
+    this.size = function () {
+        return this.elements.length;
+    }
+
+    this.isEmpty = function () {
+        return (this.elements.length < 1);
+    }
+
+    this.clear = function () {
+        this.elements = new Array();
+    }
+
+    this.put = function (_key, _value) {
+        for (i = 0; i < this.elements.length; i++) {
+            if (this.elements[i].key == _key) {
+                this.elements[i].value = _value;
+                return;
+            }
+        }
+        this.elements.push({
+            key: _key,
+            value: _value
+        });
+    }
+
+    this.remove = function (_key) {
+        var bln = false;
+
+        try {
+            for (i = 0; i < this.elements.length; i++) {
+                if (this.elements[i].key == _key) {
+                    this.elements.splice(i, 1);
+                    return true;
+                }
+            }
+        } catch (e) {
+            bln = false;
+        }
+        return bln;
+    }
+
+    this.get = function (_key) {
+        try {
+            for (i = 0; i < this.elements.length; i++) {
+                if (this.elements[i].key == _key) {
+                    return this.elements[i].value;
+                }
+            }
+        } catch (e) {
+            return null;
+        }
+    }
+
+    this.element = function (_index) {
+        if (_index < 0 || _index >= this.elements.length) {
+            return null;
+        }
+        return this.elements[_index];
+    }
+
+    this.containsKey = function (_key) {
+        var bln = false;
+        try {
+            for (i = 0; i < this.elements.length; i++) {
+                if (this.elements[i].key == _key) {
+                    bln = true;
+                }
+            }
+        } catch (e) {
+            bln = false;
+        }
+        return bln;
+    }
+
+    this.containsValue = function (_value) {
+        var bln = false;
+        try {
+            for (i = 0; i < this.elements.length; i++) {
+                if (this.elements[i].value == _value) {
+                    bln = true;
+                }
+            }
+        } catch (e) {
+            bln = false;
+        }
+        return bln;
+    }
+
+    this.values = function () {
+        var arr = new Array();
+        for (i = 0; i < this.elements.length; i++) {
+            arr.push(this.elements[i].value);
+        }
+        return arr;
+    }
+
+    this.keys = function () {
+        var arr = new Array();
+        for (i = 0; i < this.elements.length; i++) {
+            arr.push(this.elements[i].key);
+        }
+        return arr;
+    }
+}
+
+function Guid() {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+        var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+        return v.toString(16).replace("-", "");
+    });
+}
+
+
+if (!Array.indexOf) {
+    Array.prototype.indexOf = function (obj) {
+        for (var i = 0; i < this.length; i++) {
+            if (this[i] == obj) {
+                return i;
+            }
+        }
+        return -1;
+    }
+}
+
+/**
+ * 模拟表单提交
+ * @param url Url地址
+ * @param params 参数
+ * @param target 是否新开窗口
+ */
+function postcall(url, params, target) {
+    var tempform = document.createElement("form");
+    tempform.action = url;
+    tempform.method = "post";
+    tempform.style.display = "none"
+    if (target) {
+        tempform.target = target;
+    }
+
+    for (var x in params) {
+        var opt = document.createElement("input");
+        opt.name = x;
+        opt.value = params[x];
+        tempform.appendChild(opt);
+    }
+
+    var opt = document.createElement("input");
+    opt.type = "submit";
+    tempform.appendChild(opt);
+    document.body.appendChild(tempform);
+    tempform.submit();
+    document.body.removeChild(tempform);
+};
+
+/**
+ * 定义状态的值
+ * 对应后端的 com.yineng.common.exception.ExceptionEnum 枚举
+ */
+if (typeof StatusCode == "undefined") {
+    var StatusCode = {
+        //成功
+        SUCCESS: 0,
+        SYSTEM_EXEC: -1,
+        SCAN_ON_IN: 10
+    }
+}
+;

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="loginApp">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<body>
+<div ng-controller="loginAction">
+    <form>
+        <div>
+            <input type="text" ng-model="username" class="form-control" placeholder="请输入账号"/>
+        </div>
+        <div>
+            <input type="password" ng-model="password" class="form-control" placeholder="密码"/>
+        </div>
+        <button class="btn" type="button" ng-click="toLogin()">登录</button>
+    </form>
+    <div>{{userInfo}}</div>
+    <a href="main.html">不登录，直接访问</a>
+</div>
+
+<script src="assets/lib/jquery/jquery.min.js"></script>
+<script src="assets/lib/angular/angular.min.js"></script>
+<script src="assets/scripts/util.js"></script>
+<script src="assets/scripts/config.js"></script>
+
+<script>
+    app.controller('loginAction', function ($scope, $http, $window, $location) {
+        basePath = $location.absUrl().substr(0, $location.absUrl().indexOf("k12-front")) + "k12-front";
+        $scope.toLogin = function () {
+            var user = {
+                username: $scope.username,
+                password: $scope.password
+            };
+            $http({
+                method: "POST",
+                url: baseApi + "/jcgl/auth/login",
+                data: user
+            }).then(function successCallback(data) {
+                if (data) {
+                    $scope.userInfo = data.data;
+                    if ($scope.userInfo.meta.success) {
+                        var token = $scope.userInfo.data.access_token;
+                        sessionStorage.setItem(MY_SESSION_KEY, token);
+                        $window.location.href = basePath + "/main.html";
+                    }
+                }
+            }, function (data) {
+                $scope.userInfo = data;
+            });
+        }
+    });
+</script>
+
+
+</body>
+</html>

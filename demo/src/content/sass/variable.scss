@@ -1,0 +1,166 @@
+
+//mixin
+@mixin white-space-hidden(){
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@mixin border-radius($size){
+  border-radius: $size;
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+  -ms-border-radius: $size;
+}
+@mixin box-shadow($size){
+  box-shadow: $size;
+  -webkit-box-shadow: $size;
+  -moz-box-shadow: $size;
+  -ms-box-shadow: $size;
+}
+@mixin text-color($color){
+  color: $color;
+}
+@mixin btn-color($background,$border:$background,$hover-background: darken($background, 5%)){
+  background: $background;
+  border-color: $border;
+  color: #fff;
+  &:focus,&:hover,&.active{
+    background: $hover-background;
+    border-color: $hover-background;
+  }
+  &.focus,&:focus{
+    @include box-shadow(none);
+  }
+}
+@mixin  btn-outline-color($border,$background:darken($border,5%)){
+  background: transparent;
+  border-color: $border;
+  color: $border;
+  &:focus,&:hover,&.active{
+    background: $background;
+    border-color: $background;
+    color: #fff;
+  }
+  &.focus,&:focus{
+    @include box-shadow(none);
+  }
+  &:not(:disabled):not(.disabled):active,&:not(:disabled):not(.disabled).active{
+    @include box-shadow(none);
+    &:focus{
+      @include box-shadow(none);
+    }
+  }
+  &:not(:disabled):not(.disabled):active{
+    color: #fff;
+  }
+}
+@mixin gradient-color($direction, $color1,$color2){
+  background: $color1;
+  background: -webkit-linear-gradient($direction, $color1, $color2);
+  background: -o-linear-gradient($direction, $color1, $color2);
+  background: -moz-linear-gradient($direction, $color1, $color2);
+  background: -ms-linear-gradient($direction, $color1, $color2);
+  background: -webkit-gradient(linear, 0% 100%, from($color1), to($color2));
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#{ie-hex-str($color1)}', endColorstr='#{ie-hex-str($color2)}');
+  &.focus,&:focus{
+    @include box-shadow(none);
+  }
+}
+@mixin caret($pseudo,$size,$direction,$color){
+  display: block;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: $size solid transparent;
+  border-#{$direction}-color: $color;
+  @if $pseudo == 'true'{
+    margin-left: -$size/2;
+  }
+}
+
+@mixin padding($pace){
+  padding: $pace;
+}
+@mixin margin($pace){
+  margin: $pace;
+}
+@mixin margin-left($space){
+  margin-left: $space;
+}
+@mixin margin-right($space){
+  margin-right: $space;
+}
+@mixin margin-top($space){
+  margin-top: $space;
+}
+@mixin margin-bottom($space){
+  margin-bottom: $space;
+}
+@mixin padding-top($space){
+  padding-top: $space;
+}
+
+//img-url
+$img_url_resource :"../images/resource";
+$img_url :"../images";
+
+//text
+$font-size : 12px;
+
+//color
+$white : #fff !default;
+$dark : #000 !default;
+$semi : #353535 !default;
+$grey : #888 !default;
+$light : #b2b2b2 !default;
+$theme : #41BEBA !default;
+$link : #2570eb !default;
+$success : #09bb07 !default;
+$error : #e64340 !default;
+$warning : #ffc107 !default;
+$lamp : #E5017C !default;
+$ddd : #ddd !default;
+$bg-color: #f5f5f5 !default;
+
+$colors: () !default;
+$colors: map_merge((
+        "white": $white,
+        "dark": $dark,
+        "semi" : $semi,
+        "grey" : $grey,
+        "light": $light,
+        "theme": $theme,
+        "link" : $link,
+        "success": $success,
+        "error": $error,
+        "warning": $warning
+),$colors);
+
+$px : () !default;
+$px :map_merge((
+  "small": 5px,
+  "normal": 10px,
+  "medium": 20px
+),$px);
+
+//radius
+$border-radius : 4px !default;
+$border-radius-lg : 15px !default;
+$border-radius-sm : 8px !default;
+
+//shadow
+$box-shadow : 0 3px 5px rgba($dark,.125) !default;
+
+//btn
+$btn-normal-height : 30px !default;
+$btn-border-radius : $border-radius-lg !default;
+//btn-colors
+$btn-colors:() !default;
+$btn-colors: map_merge((
+        "theme": $theme,
+        "warning": $warning
+),$btn-colors);
+
+
+

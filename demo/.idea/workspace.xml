@@ -1,0 +1,2111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="22bf60be-2e92-4ee7-8c3a-46be1de9f6ab" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/_build/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/_static/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/_templates/.gitkeep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/1c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/_build" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/_static" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/_templates" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/actionscript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-swiper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/apache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/api" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/applescript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/armasm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/asciidoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/aspectj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/aspectj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/assets" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/autohotkey" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/autoit" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/avrasm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/axapta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/bash" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/brainfuck" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/brown_papersq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/cal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/capnproto" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ceylon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ceylon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/clojure-repl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/clojure" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/clojure" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/coffeescript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/coffeescript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/d" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dart" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/delphi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/demo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/diff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/django" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dns" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/dockerfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dos" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dust" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/elixir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/elixir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/elm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/erlang-repl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/erlang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/fix" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/fortran" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/fortran" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/fsharp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/gcode" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/gherkin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/handlebars" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/haskell" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/haskell" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/haxe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/http" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/inform7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ini" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/javascript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/javascript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/julia" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/kotlin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/kotlin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/lasso" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/lasso" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/lib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/lisp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/lisp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/livecodeserver" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/livescript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/lua" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/man" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mathematica" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/matlab" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/matlab" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mel" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mercury" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mizar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mojolicious" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/monkey" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/nginx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/nimrod" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/nix" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/nsis" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/objectivec" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ocaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ocaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/openscad" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/oxygene" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/parser3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/perl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/pojoaque.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/powershell" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/processing" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/profile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/prolog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/protobuf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/puppet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/python" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/python" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/q" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/r" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/release" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/rib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/roboconf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/rsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ruby" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ruby" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ruleslanguage" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/rust" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/scheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/school_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/scilab" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/assets/scripts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/smali" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/smalltalk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/sml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/stata" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/step21" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/assets/styles" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/stylus" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/swift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/tcl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/templates" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/tex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/thrift" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/tp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/typescript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/typescript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vbnet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vbscript-html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vbscript" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/verilog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vhdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vim" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/x86asm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/xl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/xquery" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/yuicompressor.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/zephir" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/1c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/AUTHORS.en.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/AUTHORS.ru.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/Gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/README.ru.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/actionscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/agate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/androidstudio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-swiper/angular-swiper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/apache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/api.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/assets/scripts/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/applescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/armasm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/arta.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/ascetic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/asciidoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/aspectj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-cave.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-cave.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-dune.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-dune.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-estuary.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-estuary.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-forest.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-forest.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-heath.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-heath.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-lakeside.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-lakeside.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-plateau.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-plateau.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-savanna.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-savanna.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-seaside.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-seaside.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-sulphurpool.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/atelier-sulphurpool.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/autohotkey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/autoit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/avrasm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/axapta.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/bash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api/binaryNumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/matlab/block_comment.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/matlab/block_comment.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap-grid.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap-grid.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap-reboot.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap-reboot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap-reboot.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap-reboot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js/bootstrap.bundle.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js/bootstrap.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js/bootstrap.bundle.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js/bootstrap.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js/bootstrap.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js/bootstrap.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/brInPre.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/brainfuck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/doc/broken.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/brown_paper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/build.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/build3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special/buildClassName.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/building-testing.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates/button.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api/cNumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/cal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/capnproto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/cdn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/matlab/cell_expansion.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/matlab/cell_expansion.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/ceylon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/kotlin/class.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/kotlin/class.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/classref.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/clojure-repl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/clojure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/cmake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/codepen-embed.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/coffeescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/color-brewer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/php/comments.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/comments.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/php/comments.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/comments.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/conf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/assets/styles/core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/cpp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/css-classes-reference.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special/customMarkup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/custommarkup.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/customtabreplace.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/d.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/darkula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/haml/dashed-values.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/haml/dashed-values.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/dockerfile/default.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/1c/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/actionscript/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/apache/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/applescript/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/armasm/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/asciidoc/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/aspectj/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/autohotkey/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/autoit/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/avrasm/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/axapta/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/bash/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/brainfuck/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/cal/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/capnproto/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ceylon/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/clojure/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/clojure-repl/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/cmake/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/coffeescript/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/cpp/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/cs/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/css/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/d/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dart/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/delphi/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/diff/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/django/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dns/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dockerfile/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dos/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/dust/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/elixir/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/elm/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/erb/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/erlang/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/erlang-repl/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/fix/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/fortran/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/fsharp/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/gcode/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/gherkin/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/glsl/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/go/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/gradle/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/groovy/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/haml/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/handlebars/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/haskell/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/haxe/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/http/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/inform7/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ini/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/java/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/javascript/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/json/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/julia/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/kotlin/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/lasso/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/less/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/lisp/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/livecodeserver/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/livescript/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/lua/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/makefile/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/markdown/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mathematica/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/matlab/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mel/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mercury/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mizar/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/mojolicious/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/monkey/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/nginx/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/nimrod/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/nix/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/nsis/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/objectivec/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ocaml/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/openscad/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/oxygene/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/parser3/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/perl/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/pf/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/php/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/powershell/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/processing/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/profile/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/prolog/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/protobuf/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/puppet/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/python/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/q/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/r/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/rib/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/roboconf/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/rsl/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ruby/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/ruleslanguage/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/rust/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/scala/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/scheme/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/scilab/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/scss/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/smali/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/smalltalk/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/sml/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/sql/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/stata/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/step21/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/stylus/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/swift/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/tcl/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/tex/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/thrift/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/tp/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/twig/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/typescript/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vala/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vbnet/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vbscript/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vbscript-html/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/verilog/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vhdl/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/vim/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/x86asm/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/xl/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/xml/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/xquery/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/zephir/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/dockerfile/default.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/lasso/delimiters.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/lasso/delimiters.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/delphi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/demo/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/developer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/diff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/coffeescript/division.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/coffeescript/division.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/django.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/dns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/docco.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/dockerfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/document.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/document.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/document.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/dos.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cs/dotted-namespace.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cs/dotted-namespace.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/dust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/elixir.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/elm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/erb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/erlang-repl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/explicit.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special/explicitLanguage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/export.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/far.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/twig/filter_with_underscore.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/twig/filter_with_underscore.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/fix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/focus.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/fortran.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/fsharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/function-params.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/function-params.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/function-title.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/elixir/function-title.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/function-title.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/elixir/function-title.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/coffeescript/function.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/kotlin/function.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/coffeescript/function.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/kotlin/function.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/swift/functions.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/typescript/functions.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/swift/functions.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/typescript/functions.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/gcode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ruby/gemfile.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ruby/gemfile.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/gherkin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/github-gist.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/glsl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/googlecode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/gradle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/grayscale.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/groovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/haml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/handlebars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/haskell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/haxe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/highlight.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api/highlightAuto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/hopscotch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/http.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/hybrid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/idea.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api/ident.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/haskell/infix.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/haskell/infix.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/inform7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/ini.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/aspectj/intertype-constructor.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/aspectj/intertype-constructor.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/aspectj/intertype-method.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/aspectj/intertype-method.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/ir_black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/java.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/javascript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/demo/jquery-2.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/javascript/jsx.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/typescript/jsx.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/javascript/jsx.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/typescript/jsx.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/julia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/javascript/keywords.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/javascript/keywords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/keywordsformat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/kimbie.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/kimbie.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/kotlin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/language-contribution.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/language-guide.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/language-requests.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special/languageAlias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/languagealias.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/lasso.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/less.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/line-numbers.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/lisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates/list_group.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ocaml/literals.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ocaml/literals.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/livecodeserver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/livescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/assets/styles/login.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/magula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/makefile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/man/marked.1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/lib/marked.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/marked.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/bin/marked" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/mathematica.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/matlab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/python/matrix-multiplication.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/python/matrix-multiplication.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/lisp/mec.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/lisp/mec.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/mel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/mercury.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/mizar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/mocha.opts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/javascript/modules.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/javascript/modules.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/mojolicious.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/monkey.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/mono-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/monokai_sublime.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ceylon/nested-comments.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/haskell/nested-comments.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ceylon/nested-comments.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/haskell/nested-comments.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/nginx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/nimrod.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/nix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special/noHighlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/nsis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/fortran/numbers.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/go/numbers.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/java/numbers.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/numbers.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/fortran/numbers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/go/numbers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/java/numbers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/numbers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/objectivec.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/obsidian.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/ocaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/openscad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/oxygene.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates/panel.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/paraiso.dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/paraiso.light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/parser3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/demo/perfect-scrollbar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/demo/perfect-scrollbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/perl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/pf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/php.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/pointers-returns.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/pointers-returns.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/pojoaque.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/powershell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/primative-types.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/primative-types.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/processing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/profile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates/progress.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/prolog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ruby/prompt.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ruby/prompt.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/protobuf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/puppet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/python.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/q.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/railscasts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/rainbow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/reference.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/coffeescript/regex.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/coffeescript/regex.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ruby/regexes.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ruby/regexes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/release-process.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates/resource_relevant.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/rib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/roboconf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/rsl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/ruby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/detect/css/rules-only.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/ruleslanguage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/rust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/scala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/scheme.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/school_book.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/scilab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/scss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/shortenedexplicit.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/smali.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/smalltalk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/sml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/solarized_dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/solarized_light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api/starters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/stata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/step21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/string-literals.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cpp/string-literals.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/strings.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/strings.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/style-contribution.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/docs/style-guide.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/demo/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/assets/styles/style.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/stylus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special/subLanguages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/sublanguages.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/sunburst.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/swift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-swiper/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-swiper/swiper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/clojure/symbols-numbers.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/clojure/symbols-numbers.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates/tab.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/tabreplace.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/tasks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/twig/template_tags.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/twig/template_tags.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/tex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/document/templates/text.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/thrift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cs/titles.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/java/titles.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/cs/titles.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/java/titles.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/marked/doc/todo.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/tomorrow-night-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/tomorrow-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/tp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/traits.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/traits.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/matlab/transpose.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/matlab/transpose.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/twig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ocaml/types.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/ocaml/types.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/typescript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/api/underscoreIdent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/urlRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/special/useBr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/expect/useBr.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/tools/utility.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/vala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/assets/styles/variable.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/variables.expect.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/test/markup/rust/variables.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/vbnet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/vbscript-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/vbscript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/verilog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/vhdl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/angular-ui-router/src/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/vim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/vs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/x86asm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/xcode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/xl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/xml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/xquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/styles/zenburn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tpl/lib/highlight.js/src/languages/zephir.js" />
+    </list>
+    <ignored path="k12-frontend.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="k12-frontend" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="vertical" split-proportion="0.73866093">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="document.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/document/document.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1470">
+                  <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="851" max-vertical-offset="1920">
+                  <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#ks-swiper-slide#0;n#ks-swiper-container#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#ks-swiper-slide#1;n#ks-swiper-container#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#ks-swiper-slide#2;n#ks-swiper-container#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="resource_relevant.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/document/templates/resource_relevant.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="3181" max-vertical-offset="5220">
+                  <caret line="180" column="49" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="49" />
+                  <folding>
+                    <element signature="n#div#4;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#7;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#8;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#10;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#11;n#!!top" expanded="false" />
+                    <element signature="n#div#12;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#12;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#13;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#13;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tab.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/document/templates/tab.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1110">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="31" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="68908" max-vertical-offset="69720">
+                  <caret line="2402" column="54" selection-start-line="2402" selection-start-column="54" selection-end-line="2402" selection-end-column="54" />
+                  <folding>
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="view.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/view.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="3540" max-vertical-offset="14610">
+                  <caret line="146" column="30" selection-start-line="118" selection-start-column="45" selection-end-line="146" selection-end-column="30" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="button.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/document/templates/button.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1770">
+                  <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="focus.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tpl/focus.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.7524917" vertical-offset="297" max-vertical-offset="1410">
+                  <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
+                  <folding>
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#nav#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="document.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/document/document.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1800">
+                  <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+                  <folding>
+                    <element signature="e#1798#2401#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="document.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/document/document.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="2580">
+                  <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#1063#1213#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="variable.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/assets/styles/variable.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="1718" max-vertical-offset="5040">
+                  <caret line="91" column="1" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="core.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/assets/styles/core.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-1.0816326" vertical-offset="1724" max-vertical-offset="10350">
+                  <caret line="151" column="6" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="6" />
+                  <folding>
+                    <element signature="e#398#619#0" expanded="false" />
+                    <element signature="e#625#2642#0" expanded="false" />
+                    <element signature="e#3953#4094#0" expanded="false" />
+                    <element signature="e#7355#7877#0" expanded="false" />
+                    <element signature="e#7909#11862#0" expanded="false" />
+                    <element signature="e#10814#11329#0" expanded="false" />
+                    <element signature="e#11483#11656#0" expanded="false" />
+                    <element signature="e#11986#12014#0" expanded="false" />
+                    <element signature="e#12087#12110#0" expanded="false" />
+                    <element signature="e#12427#12790#0" expanded="false" />
+                    <element signature="e#12815#13102#0" expanded="false" />
+                    <element signature="e#13113#13301#0" expanded="false" />
+                    <element signature="e#13329#13683#0" expanded="false" />
+                    <element signature="e#13700#13882#0" expanded="false" />
+                    <element signature="e#13906#14080#0" expanded="false" />
+                    <element signature="e#14094#14387#0" expanded="false" />
+                    <element signature="e#14408#14511#0" expanded="false" />
+                    <element signature="e#14678#15497#0" expanded="false" />
+                    <element signature="e#15685#15753#0" expanded="false" />
+                    <element signature="e#15768#15842#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/assets/scripts/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="3540">
+                  <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tpl/assets/styles/style.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.712963" vertical-offset="703" max-vertical-offset="7140">
+                  <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#258#302#0" expanded="false" />
+                    <element signature="e#333#407#0" expanded="false" />
+                    <element signature="e#938#976#0" expanded="false" />
+                    <element signature="e#988#1104#0" expanded="false" />
+                    <element signature="e#1130#1212#0" expanded="false" />
+                    <element signature="e#2295#2391#0" expanded="false" />
+                    <element signature="e#2797#2908#0" expanded="false" />
+                    <element signature="e#3361#3493#0" expanded="false" />
+                    <element signature="e#3775#3911#0" expanded="false" />
+                    <element signature="e#4178#4395#0" expanded="false" />
+                    <element signature="e#4434#4828#0" expanded="false" />
+                    <element signature="e#5744#6048#0" expanded="false" />
+                    <element signature="e#5790#6000#0" expanded="false" />
+                    <element signature="e#5863#5943#0" expanded="false" />
+                    <element signature="e#6088#6349#0" expanded="false" />
+                    <element signature="e#6363#6558#0" expanded="false" />
+                    <element signature="e#6383#6507#0" expanded="false" />
+                    <element signature="e#6599#6837#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="list_group.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/tpl/document/templates/list_group.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="750">
+                  <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tpl/document.html" />
+        <option value="$PROJECT_DIR$/tpl/assets/variable.scss" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/color.html" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/tab.html" />
+        <option value="$PROJECT_DIR$/tpl/document/document.scss" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/progress.html" />
+        <option value="$PROJECT_DIR$/tpl/assets/scripts/login.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tpl/assets/styles/login.scss" />
+        <option value="$PROJECT_DIR$/tpl/assets/styles/core.css" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/text.html" />
+        <option value="$PROJECT_DIR$/tpl/login.html" />
+        <option value="$PROJECT_DIR$/tpl/demo.html" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/form.html" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/resource_relevant.html" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/button.html" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/panel.html" />
+        <option value="$PROJECT_DIR$/tpl/assets/styles/variable.scss" />
+        <option value="$PROJECT_DIR$/tpl/view.html" />
+        <option value="$PROJECT_DIR$/tpl/document/document.js" />
+        <option value="$PROJECT_DIR$/tpl/document/document.html" />
+        <option value="$PROJECT_DIR$/tpl/document/templates/list_group.html" />
+        <option value="$PROJECT_DIR$/tpl/index.html" />
+        <option value="$PROJECT_DIR$/tpl/assets/styles/core.scss" />
+        <option value="$PROJECT_DIR$/tpl/assets/scripts/app.js" />
+        <option value="$PROJECT_DIR$/tpl/assets/styles/style.scss" />
+        <option value="$PROJECT_DIR$/tpl/focus.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Tools\apache-maven-3.2.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="k12-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="k12-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="k12-frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\00-code\k12\k12-frontend\tpl\document\templates" />
+      <recent name="E:\00-code\k12\k12-frontend\tpl" />
+      <recent name="E:\00-code\k12\k12-frontend\tpl\lib\angular-swiper" />
+      <recent name="E:\00-code\k12\k12-frontend\tpl\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\00-code\k12\k12-frontend\tpl" />
+      <recent name="E:\00-code\k12\k12-frontend\tpl\assets\styles" />
+      <recent name="E:\00-code\k12\k12-frontend\tpl\document" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\yineng\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\00-code\k12\k12-frontend" />
+          <option name="myCopyRoot" value="E:\00-code\k12\k12-frontend" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\00-code\k12\k12-frontend" />
+          <option name="myCopyRoot" value="E:\00-code\k12\k12-frontend" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22bf60be-2e92-4ee7-8c3a-46be1de9f6ab" name="Default" comment="" />
+      <created>1523168656373</created>
+      <option name="number" value="Default" />
+      <updated>1523168656373</updated>
+      <workItem from="1523168658434" duration="2674000" />
+      <workItem from="1523234721234" duration="8666000" />
+      <workItem from="1523267086328" duration="5696000" />
+      <workItem from="1523321870288" duration="22536000" />
+      <workItem from="1523407855093" duration="20651000" />
+      <workItem from="1523493634465" duration="34838000" />
+      <workItem from="1523581714360" duration="23184000" />
+      <workItem from="1523840095870" duration="26025000" />
+      <workItem from="1523926280031" duration="25307000" />
+      <workItem from="1524013826689" duration="22079000" />
+      <workItem from="1524099515739" duration="5516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="197172000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07235421" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.072432436" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17590618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="660">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#1798#2401#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1230">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#1063#1213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/variable.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1200">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1140">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#398#619#0" expanded="false" />
+            <element signature="e#625#2642#0" expanded="false" />
+            <element signature="e#3953#4094#0" expanded="false" />
+            <element signature="e#7355#7877#0" expanded="false" />
+            <element signature="e#7909#11862#0" expanded="false" />
+            <element signature="e#10814#11329#0" expanded="false" />
+            <element signature="e#11483#11656#0" expanded="false" />
+            <element signature="e#11986#12014#0" expanded="false" />
+            <element signature="e#12087#12110#0" expanded="false" />
+            <element signature="e#12427#12790#0" expanded="false" />
+            <element signature="e#12815#13102#0" expanded="false" />
+            <element signature="e#13113#13301#0" expanded="false" />
+            <element signature="e#13329#13683#0" expanded="false" />
+            <element signature="e#13700#13882#0" expanded="false" />
+            <element signature="e#13906#14080#0" expanded="false" />
+            <element signature="e#14094#14387#0" expanded="false" />
+            <element signature="e#14408#14511#0" expanded="false" />
+            <element signature="e#14678#15497#0" expanded="false" />
+            <element signature="e#15685#15753#0" expanded="false" />
+            <element signature="e#15768#15842#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1200">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="480">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="870">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1050">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#1798#2401#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1140">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="e#1063#1213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/variable.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="510">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#398#619#0" expanded="false" />
+            <element signature="e#625#2642#0" expanded="false" />
+            <element signature="e#3953#4094#0" expanded="false" />
+            <element signature="e#7355#7877#0" expanded="false" />
+            <element signature="e#7909#11862#0" expanded="false" />
+            <element signature="e#10814#11329#0" expanded="false" />
+            <element signature="e#11483#11656#0" expanded="false" />
+            <element signature="e#11986#12014#0" expanded="false" />
+            <element signature="e#12087#12110#0" expanded="false" />
+            <element signature="e#12427#12790#0" expanded="false" />
+            <element signature="e#12815#13102#0" expanded="false" />
+            <element signature="e#13113#13301#0" expanded="false" />
+            <element signature="e#13329#13683#0" expanded="false" />
+            <element signature="e#13700#13882#0" expanded="false" />
+            <element signature="e#13906#14080#0" expanded="false" />
+            <element signature="e#14094#14387#0" expanded="false" />
+            <element signature="e#14408#14511#0" expanded="false" />
+            <element signature="e#14678#15497#0" expanded="false" />
+            <element signature="e#15685#15753#0" expanded="false" />
+            <element signature="e#15768#15842#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/core.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22222222" vertical-offset="0" max-vertical-offset="810">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/variable.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="849">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7461774" vertical-offset="74872" max-vertical-offset="269400">
+          <caret line="2512" column="24" selection-start-line="2512" selection-start-column="24" selection-end-line="2512" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/lib/bootstrap-4.0.0/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18348624" vertical-offset="0" max-vertical-offset="654">
+          <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/variable.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8140703" vertical-offset="2433" max-vertical-offset="3120">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/core.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.6488013" vertical-offset="16264" max-vertical-offset="34590">
+          <caret line="652" column="0" selection-start-line="652" selection-start-column="0" selection-end-line="652" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/styles/core.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6976744" vertical-offset="12330" max-vertical-offset="26700">
+          <caret line="450" column="20" selection-start-line="450" selection-start-column="20" selection-end-line="450" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/lib/angular/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10140">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/lib/angular/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8880">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scripts/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5847953" vertical-offset="810" max-vertical-offset="1410">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7721519" vertical-offset="366" max-vertical-offset="1650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25316456" vertical-offset="990" max-vertical-offset="1860">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/lib/angular-swiper/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.44" vertical-offset="220" max-vertical-offset="720">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/lib/angular-swiper/swiper.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6185567" vertical-offset="0" max-vertical-offset="679">
+          <caret line="14" column="11559" selection-start-line="14" selection-start-column="11542" selection-end-line="14" selection-end-column="11559" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/core.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38841203" vertical-offset="179" max-vertical-offset="14730">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6938776" vertical-offset="126" max-vertical-offset="1020">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/progress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6465517" vertical-offset="0" max-vertical-offset="696">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="55" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17595308" vertical-offset="0" max-vertical-offset="1620">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="51202" max-vertical-offset="144030">
+          <caret line="1715" column="0" selection-start-line="1715" selection-start-column="0" selection-end-line="1715" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7819314" vertical-offset="367" max-vertical-offset="1560">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding>
+            <element signature="e#920#2373#0" expanded="false" />
+            <element signature="e#1513#2212#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1698" max-vertical-offset="2580">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+          <folding>
+            <element signature="e#1063#1213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="851" max-vertical-offset="1920">
+          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#ks-swiper-slide#0;n#ks-swiper-container#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ks-swiper-slide#1;n#ks-swiper-container#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#ks-swiper-slide#2;n#ks-swiper-container#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/resource_relevant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3181" max-vertical-offset="5220">
+          <caret line="180" column="49" selection-start-line="180" selection-start-column="39" selection-end-line="180" selection-end-column="49" />
+          <folding>
+            <element signature="n#div#4;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#7;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#8;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#10;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#11;n#!!top" expanded="false" />
+            <element signature="n#div#12;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#12;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#13;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#13;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/tab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1110">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="31" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09803922" vertical-offset="0" max-vertical-offset="1680">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5151515" vertical-offset="375" max-vertical-offset="870">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1770">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="875" max-vertical-offset="1800">
+          <caret line="33" column="51" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
+          <folding>
+            <element signature="e#1798#2401#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/document.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="1470">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/document/templates/list_group.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="750">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68908" max-vertical-offset="69720">
+          <caret line="2402" column="54" selection-start-line="2402" selection-start-column="54" selection-end-line="2402" selection-end-column="54" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/variable.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1718" max-vertical-offset="5040">
+          <caret line="91" column="1" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3540" max-vertical-offset="14610">
+          <caret line="146" column="30" selection-start-line="118" selection-start-column="45" selection-end-line="146" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="3540">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/core.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0816326" vertical-offset="1724" max-vertical-offset="10350">
+          <caret line="151" column="6" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="6" />
+          <folding>
+            <element signature="e#398#619#0" expanded="false" />
+            <element signature="e#625#2642#0" expanded="false" />
+            <element signature="e#3953#4094#0" expanded="false" />
+            <element signature="e#7355#7877#0" expanded="false" />
+            <element signature="e#7909#11862#0" expanded="false" />
+            <element signature="e#10814#11329#0" expanded="false" />
+            <element signature="e#11483#11656#0" expanded="false" />
+            <element signature="e#11986#12014#0" expanded="false" />
+            <element signature="e#12087#12110#0" expanded="false" />
+            <element signature="e#12427#12790#0" expanded="false" />
+            <element signature="e#12815#13102#0" expanded="false" />
+            <element signature="e#13113#13301#0" expanded="false" />
+            <element signature="e#13329#13683#0" expanded="false" />
+            <element signature="e#13700#13882#0" expanded="false" />
+            <element signature="e#13906#14080#0" expanded="false" />
+            <element signature="e#14094#14387#0" expanded="false" />
+            <element signature="e#14408#14511#0" expanded="false" />
+            <element signature="e#14678#15497#0" expanded="false" />
+            <element signature="e#15685#15753#0" expanded="false" />
+            <element signature="e#15768#15842#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/assets/styles/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.712963" vertical-offset="703" max-vertical-offset="7140">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="e#258#302#0" expanded="false" />
+            <element signature="e#333#407#0" expanded="false" />
+            <element signature="e#938#976#0" expanded="false" />
+            <element signature="e#988#1104#0" expanded="false" />
+            <element signature="e#1130#1212#0" expanded="false" />
+            <element signature="e#2295#2391#0" expanded="false" />
+            <element signature="e#2797#2908#0" expanded="false" />
+            <element signature="e#3361#3493#0" expanded="false" />
+            <element signature="e#3775#3911#0" expanded="false" />
+            <element signature="e#4178#4395#0" expanded="false" />
+            <element signature="e#4434#4828#0" expanded="false" />
+            <element signature="e#5744#6048#0" expanded="false" />
+            <element signature="e#5790#6000#0" expanded="false" />
+            <element signature="e#5863#5943#0" expanded="false" />
+            <element signature="e#6088#6349#0" expanded="false" />
+            <element signature="e#6363#6558#0" expanded="false" />
+            <element signature="e#6383#6507#0" expanded="false" />
+            <element signature="e#6599#6837#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tpl/focus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7524917" vertical-offset="297" max-vertical-offset="1410">
+          <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
